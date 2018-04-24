@@ -43,7 +43,7 @@ app.get('/api', function(req, res) {
         "state": "Noord-Brabant",
         "postcode": 4818
         },
-        "email": "emma.singh@example.com",
+        "email": "pimpom@avans.nl",
         "login": {
         "username": "bigelephant146",
         "password": "mamas",
@@ -54,14 +54,14 @@ app.get('/api', function(req, res) {
         },
         "dob": "1983-01-30 04:05:56",
         "registered": "2008-03-07 10:43:57",
-        "phone": "075-352-4843",
+        "phone": "06-12345678",
         "cell": "399-161-2501",
         "id": {
         "name": "",
         "value": null
         },
         "picture": {
-        "large": "https://randomuser.me/api/portraits/women/43.jpg",
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
         "medium": "https://randomuser.me/api/portraits/med/women/43.jpg",
         "thumbnail": "https://randomuser.me/api/portraits/thumb/women/43.jpg"
         },
