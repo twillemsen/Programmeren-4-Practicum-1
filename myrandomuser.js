@@ -18,6 +18,15 @@ app.put('/', function(request, response) {
     response.send('Hello Avans, PUT request received!');
 })
 
+app.get('/json', function(req, res) {
+    let json = {
+        text: "Dit is een JSON object",
+        author: "Tobias Willemsen"
+    }
+
+    res.status(200).send(json).end();
+});
+
 app.all('*', function(request, response) {
     response.status(404);
     response.send('404 - Not found');
